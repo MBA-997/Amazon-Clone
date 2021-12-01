@@ -1,0 +1,13 @@
+/* .carousel {
+  display: flex;
+  margin: 0px;
+  margin-bottom: -270px;
+} */
+
+.carousel__image {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -270px;
+  /* mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0)); */
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), black 100%);
+}

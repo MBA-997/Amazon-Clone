@@ -1,0 +1,27 @@
+.home {
+  /*display: flex;*/
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* max-width: 1500px; */
+}
+
+.home__row {
+  display: flex;
+  margin-left: 5px;
+  margin-right: 5px;
+  z-index: 1;
+}
+
+.home__container {
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -280px;
+  mask-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0),
+    #000000 50%,
+    black 100%
+  );
+  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), black 100%);
+}
