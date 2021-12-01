@@ -23,5 +23,4 @@
     #000000 50%,
     black 100%
   );
-  mask-image: linear-gradient(to top, rgba(0, 0, 0, 0), black 100%);
 }
